@@ -155,7 +155,7 @@ media query FlexWrap 1144 resolution - remove
 .main {
   float: left;
   width: 60%; /* The width is 60%, by default */
-}
+/* } */
 
 /* Use a media query to add a breakpoint at 800px: 
 @media screen and (max-width: 800px) {
