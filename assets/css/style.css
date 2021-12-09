@@ -109,10 +109,6 @@ header nav ul li a {
     padding-bottom: 25px;
 }
 
-.bio h2 {
-
-}
-
 .biobox {
     display: flex;
     flex-wrap: wrap;
@@ -272,14 +268,23 @@ header nav ul li a {
 
 .contactinfo {
     display: flex;
+    padding-top: 35px;
 }
 
 .tel, .email, .git {
     flex: 1 25%;
     justify-content: space-between;
     align-items: space-between ;
+    text-align: center;
 }
 
+.contactinfo span {
+    border-bottom: 5px dotted rgb(112, 38, 33);
+    padding: 7px 0 3px 0;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 22px ;
+}
 
 
 
