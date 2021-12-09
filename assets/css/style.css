@@ -270,9 +270,15 @@ header nav ul li a {
 
 /* BEGIN CONTACT ME SECTION */
 
+.contactinfo {
+    display: flex;
+}
 
-
-
+.tel, .email, .git {
+    flex: 1 25%;
+    justify-content: space-between;
+    align-items: space-between ;
+}
 
 
 
