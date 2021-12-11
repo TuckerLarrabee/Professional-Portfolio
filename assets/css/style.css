@@ -135,10 +135,10 @@ header nav ul li a {
 
 
 /* START MY WORK SECTION */
-/* .runbudpic {
+/* /* .runbudpic {
     background-image: url(./images/runbud.jpg);
 } */
-.work {
+/* .work {
     width: auto;
     height: 700px;
 }
@@ -257,7 +257,7 @@ header nav ul li a {
     right: 100px;
     width: 260px;
     height: 250px;
-}
+} *
 
 
 
@@ -265,10 +265,9 @@ header nav ul li a {
 
 
 /* BEGIN CONTACT ME SECTION */
-
-.contactinfo {
+/* .contactinfo {
     display: flex;
-    padding-top: 35px;
+    padding-top: 5px;
 }
 
 .tel, .email, .git {
@@ -285,7 +284,7 @@ header nav ul li a {
     font-weight: bold;
     font-size: 22px ;
 }
-
+ */
 
 
 
@@ -310,4 +309,4 @@ media query FlexWrap 1144 resolution - remove
     width: 100%;  The width is 100%, when the viewport is 800px or smaller 
   }
 }
-</style> */
+</style> */ */
