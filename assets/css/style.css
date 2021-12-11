@@ -103,7 +103,7 @@ header nav ul li a {
 
 
 /* BEGIN BIO SECTION */
-.biosection, .work, .reachout {
+.biosection, .work{
     margin: 30px 20px 20px 20px;
     /* border-bottom: 3px double rgba(68, 3, 3, 0.85); */
     padding-bottom: 25px;
@@ -123,8 +123,7 @@ header nav ul li a {
     width: 50%;
     align-items: center;
     justify-content: center;
-    font-size: 26px;
-    
+    font-size: 20px;
 }
 
 .biobox2 {
@@ -135,7 +134,7 @@ header nav ul li a {
 .biosection img {
     flex: 1 40%;
     height: auto;
-    max-width: 80%;
+    max-width: 70%;
     box-shadow: 5px 10px 25px rgba(68, 3, 3, 0.85);
     border-radius: 25px;   
 }
@@ -168,8 +167,25 @@ header nav ul li a {
     padding-top: 15px;
 }
 
-.second-projects p {
+.second-projects-2 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex: 50%;
+    margin-bottom: 5px;
+    padding-top: 15px;
+}
+
+.second-projects a, .second-projects-2 a {
+    width: 70%;
+    height: 80%;
+}
+
+.second-projects p, .second-projects-2 p {
     position: absolute;
+    font-weight: bold;
     top: 25%;
     right: 33%;
     text-align: center;
@@ -179,7 +195,7 @@ header nav ul li a {
     box-shadow: 5px 10px 25px rgba(68, 3, 3, 0.85);
     border-radius: 15px;
     text-shadow: 0 0 10px rgb(0 0 0 / 50%);
-    font-size: 24px;
+    font-size: 2vw;
     width: 35%;
     padding-left: 3px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -187,9 +203,11 @@ header nav ul li a {
 
 .main-project a {
     text-decoration: none;
+    width: 75%;
 }
 
 .main-project p {
+    font-weight: bold;
     position: absolute;
     text-align: center;
     top: 25%;
@@ -214,6 +232,14 @@ header nav ul li a {
     border-radius: 25px;
 }
 
+.second-projects-2 img {
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    box-shadow: 5px 10px 25px rgba(68, 3, 3, 0.85);
+    border-radius: 25px;
+}
+
 .coming {
     background: transparent;
 }
@@ -225,19 +251,61 @@ header nav ul li a {
     border-radius: 25px;
 }
 
-.runbud {
+ 
+/*CONTACT INFO START */
+
+
+.contactinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px 20px 10px 20px;
+    background-color: rgba(155, 12, 12, 1);
+    border-radius: 5px;
+    box-shadow: 5px 10px 25px black;
+    z-index: 9999;
 }
 
-#contact {
-    width: 100%;
-    height: 300px;
+.contactinfo a {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: oblique;
+    color: honeydew;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
-
 
 
 /* 
 media query should start at 979 maxwidth */
+@media screen and (max-width: 980px) {
 
+        header  {
+            justify-content: space-around;
+        }
 
-/* 
+        .biobox p {
+            text-align: center;
+        }
+    }
+        /* 
 media query should start at 480 maxwidth */
+
+@media screen and (max-width: 980px) {
+
+    header {
+        display: block;
+    }
+
+    header nav  {
+        display: block;
+    }
+
+    header nav ul {
+
+    }
+
+    .tltucker a {
+        font-size: 8vw;
+    }
+}
