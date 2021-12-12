@@ -332,6 +332,7 @@ media query should start at 480 maxwidth */
 
     .second-projects p, .second-projects-2 p {
         font-size: 24px;
+        width: 40%;
     }
 
     .second-projects-2 {
