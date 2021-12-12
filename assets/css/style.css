@@ -291,21 +291,10 @@ media query should start at 979 maxwidth */
         /* 
 media query should start at 480 maxwidth */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 480px) {
 
-    header {
-        display: block;
-    }
 
     header nav  {
         display: block;
+        margin: 0;
     }
-
-    header nav ul {
-
-    }
-
-    .tltucker a {
-        font-size: 8vw;
-    }
-}
