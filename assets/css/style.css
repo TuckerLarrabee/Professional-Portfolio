@@ -284,9 +284,9 @@ media query should start at 979 maxwidth */
             justify-content: space-around;
         }
 
-        .biobox p {
+        /* .biobox p {
             text-align: center;
-        }
+        } */
     }
         /* 
 media query should start at 480 maxwidth */
@@ -328,5 +328,13 @@ media query should start at 480 maxwidth */
 
     .logo {
         padding: 0;
+    }
+
+    .second-projects p, .second-projects-2 p {
+        font-size: 24px;
+    }
+
+    .second-projects-2 {
+        margin-left: 20px;
     }
 }
