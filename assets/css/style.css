@@ -311,17 +311,22 @@ media query should start at 480 maxwidth */
 
 @media screen and (max-width: 445px) {
     .tltucker {
-        flex: none;
+        display: block;
     }
 
     header {
-        flex: none;
+        display: block;
     }
 
     header nav ul {
-        flex: none;
+        display: block;
     }
 
     .tltucker h1 {
         padding: 0;
     }
+
+    .logo {
+        padding: 0;
+    }
+}
